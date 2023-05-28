@@ -1,11 +1,13 @@
 import './App.css';
+import { NavFooter } from './components/NavFooter';
+import { NavHeader } from './components/NavHeader';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <NavHeader />
         <h1>Hello, I'm Karla</h1>
-      </header>
+      {/* <NavFooter /> */}
     </div>
   );
 }
