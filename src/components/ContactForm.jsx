@@ -1,8 +1,8 @@
 import { useState } from "react"
 
 export const ContactForm = () => {
-    const [firstname, setFirstName] = useState("");
-    const [lasttname, setLastName] = useState("");
+    const [firstName, setFirstName] = useState("");
+    const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
 
@@ -12,8 +12,8 @@ export const ContactForm = () => {
         const message = "Thank you for contacting me. I'll be in touch shortly.";
 
         const data = {
-            firstname,
-            lastname,
+            firstName,
+            lastName,
             email,
             phone
 
