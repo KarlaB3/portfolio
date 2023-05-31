@@ -1,24 +1,29 @@
-import { useState } from "react"
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
-    const [firstName, setFirstName] = useState("");
-    const [lastName, setLastName] = useState("");
-    const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
+    const form = useRef();
 
-    const handleSubmit = (event) => {
+    const sendEmail = (event) => {
         event.preventDefault();
 
-        const message = "Thank you for contacting me. I'll be in touch shortly.";
+        emailjs.sendForm('service_4n9jghi', 'contact_form', form.current, 'zVIYdj3XMqEdHz0wt')
+        .then((result) => {
+            console.log(result.text);   
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
-        const data = {
-            firstName,
-            lastName,
-            email,
-            phone
-
-            fetch()
-        }
-            
-    }
-}
+    return (
+        <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" />
+        </form>
+    );
+};
