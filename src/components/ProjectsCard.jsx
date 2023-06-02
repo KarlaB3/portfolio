@@ -4,7 +4,7 @@ export const ProjectsCard = ({ project }) => {
       <img className="card-img-top" src={project.image} alt="Repository" />
       <div className="card-body">
         <h5 className="card-title">{project.name}</h5>
-        <p className="card-text">{project.description}</p>
+        <h6 className="card-subtitle mb-2 text-muted">{project.description}</h6>
         <ul className="list-unstyled">
           {project.topics.map((topic) => (
             <li key={topic}>{topic}</li>
