@@ -3,7 +3,7 @@ import logo from './../Images/kb-logo.png';
 export const NavHeader = () => {
     return (
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
                 <a class="navbar-brand" href="/">
                     <img src={logo} width="50" height="50" alt="KB dev logo"></img>
                 </a>

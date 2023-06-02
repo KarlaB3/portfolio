@@ -1,5 +1,5 @@
 import './App.css';
-// import { NavFooter } from './components/NavFooter';
+import { NavFooter } from './components/NavFooter';
 import { NavHeader } from './components/NavHeader';
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
@@ -20,7 +20,7 @@ function App() {
           <Route path="/blog" element={<BlogsPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
-      {/* <NavFooter /> */}
+      <NavFooter />
     </div>
   );
 }
