@@ -1,9 +1,10 @@
+import { ProjectsFetch } from '../components/ProjectsFetch';
 
-
-export function ProjectsPage(props) {
-    return (
-        <div>
-            <h1>Projects page</h1>
-        </div>
-    )
-}
+export const ProjectsPage = () => {
+  return (
+    <div>
+      <h1>Projects</h1>
+      <ProjectsFetch />
+    </div>
+  );
+};
