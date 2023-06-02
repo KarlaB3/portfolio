@@ -1,18 +1,19 @@
-import Navbar from 'react-bootstrap/Navbar'
-import NavbarBrand from 'react-bootstrap/NavbarBrand';
-import Nav from 'react-bootstrap/Nav'
-import NavItem from 'react-bootstrap/NavItem'
+import logo from './../Images/kb-logo.png';
 
 export const NavHeader = () => {
     return (
-        <Navbar bg="light" variant="light">
-            <NavbarBrand href='/'>My Logo</NavbarBrand>
-            <Nav>
-                <NavItem href="/about">About</NavItem>
-                <NavItem href="/projects">Projects</NavItem>
-                <NavItem href="/blog">Blog</NavItem>
-                <NavItem href="/contact">Contact</NavItem>
-            </Nav>
-        </Navbar>
-    );
-}
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/">
+                    <img src={logo} width="50" height="50" alt="KB dev logo"></img>
+                </a>
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    <a class="nav-item nav-link" href="/projects">Projects</a>
+                    <a class="nav-item nav-link" href="/blogs">Blog</a>
+                    <a class="nav-item nav-link" href="/contact">Contact</a>
+                    </div>
+            </nav>
+        </div>
+    );       
+};
