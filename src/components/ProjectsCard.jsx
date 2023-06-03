@@ -10,6 +10,7 @@ export const ProjectsCard = ({ project }) => {
             <li key={topic}>{topic}</li>
           ))}
         </ul>
+        <a href={project.html_url} className="card-link" target="_blank" rel="noreferrer">Read More</a>
       </div>
     </div>
   );
