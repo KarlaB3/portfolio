@@ -3,7 +3,7 @@ import { BlogsFetch } from "../components/BlogsFetch";
 export const BlogsPage = () => {
   return (
     <div>
-      <h1>Blogs</h1>
+      <h1>Blog</h1>
       <BlogsFetch />
     </div>
   );

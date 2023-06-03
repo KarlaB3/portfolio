@@ -9,9 +9,7 @@ export const ProjectsFetch = () => {
     axios.get("https://api.github.com/users/KarlaB3/repos")
       .then((response) => response.data)
       .then((repos) => {
-        const repoIds = [573636775, 555806599, 607922602, 646332800, 642143267, 646375707];
-        const filteredRepos = repos.filter((repo) => repoIds.includes(repo.id));
-        setProjects(filteredRepos);
+        setProjects(repos)
       });
   }, []);
 
