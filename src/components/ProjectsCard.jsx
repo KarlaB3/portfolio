@@ -14,3 +14,7 @@ export const ProjectsCard = ({ project }) => {
     </div>
   );
 };
+
+// idea: create a new prop, targetProjectId and use a conditional check similar to proposed BlogCard component 
+
+// card component with image, project name, url, description, topics, read more link/button

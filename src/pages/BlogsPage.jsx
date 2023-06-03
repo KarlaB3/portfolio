@@ -1,8 +1,10 @@
+import { BlogsFetch } from "../components/BlogsFetch";
 
-export function BlogsPage(props) {
-    return (
-        <div>
-            <h1>Blogs page</h1>
-        </div>
-    )
-}
+export const BlogsPage = () => {
+  return (
+    <div>
+      <h1>Blogs</h1>
+      <BlogsFetch />
+    </div>
+  );
+};

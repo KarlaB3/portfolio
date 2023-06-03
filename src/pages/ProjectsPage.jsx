@@ -8,3 +8,5 @@ export const ProjectsPage = () => {
     </div>
   );
 };
+
+// idea: declare a variable targetProjectID within the ProjectsFetch render

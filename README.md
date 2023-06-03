@@ -1,3 +1,3 @@
 # Portfolio Website
-This is my portfolio website built using React and Bootstrap and deployed with Netlify.
+This is my portfolio website built in React, styled with Bootstrap and deployed on Netlify.
 
