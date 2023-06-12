@@ -1,17 +1,24 @@
 import logo from './../Images/kb-logo.png';
 
 export const NavHeader = () => {
-    return (
-        <div className="header-container">
-            <a href="/">
-                <img className="header-brand" src={logo} alt="Logo"></img>
-            </a>
-            <nav className="header-nav">
-                <a href="/about">About</a>
-                <a href="/projects">Projects</a>
-                <a href="/blogs">Blog</a>
-                <a href="/contact">Contact</a>
-            </nav>
-        </div>
-    );       
-};
+		return (
+			<nav className="navbar navbar-expand-lg bg-body-tertiary">
+				<div className="container-fluid">
+					<a className="navbar-brand" href="/">
+						<img src={logo} width="50" height="50" alt="KB Dev logo"></img>
+					</a>
+					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+						<span className="navbar-toggler-icon">Menu</span>
+					</button>
+					<div className="collapse navbar-collapse" id="navbarToggler">
+						<div className="navbar-nav">
+							<a className="nav-link" href="/about">About</a>
+							<a className="nav-link" href="/projects">Projects</a>
+							<a className="nav-link" href="/blogs">Blog</a>
+							<a className="nav-link" href="/Contact">Contact</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		)
+}
