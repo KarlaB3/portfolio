@@ -6,9 +6,21 @@ export const ProjectsPage = () => {
   
   return (
     <div className="container-xxl">
-      <h1>Projects</h1>
-      <img className="img-pages" id="projects-img" src={projects} width="250" height="250" alt="Projects"/>
+      <div className="container my-5">
+          <div className="row">
+            <div className="col-lg-3">
+              <img className="img-pages" id="projects-img" src={projects} width="250" height="250" alt="Projects"/>
+            </div>
+            <div className="col-lg-8">
+              <div className="p-5 mt-4">
+                <h2 className="display-4">Projects</h2>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div>
       <ProjectsFetch />
+      </div>
     </div>
   );
 };

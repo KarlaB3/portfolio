@@ -14,9 +14,12 @@ export function HomePage(props) {
             </div>
             <div className="col-lg-8">
               <div className="p-5 mt-4">
+                <h2 className="display-4">This website is a work in progress. Stay tuned. </h2>
+                <br>
+                </br>
                 <h2 className="display-4">Web Developer & Marketer</h2>
                 <h3 className="display-6">Hi, I'm Karla</h3>
-                <h4 className="display-7">I bring digital projects and platforms to life and craft exceptional user experiences.</h4>
+                <h3 className="display-7">I bring digital projects to life and craft exceptional user experiences.</h3>
                 <AboutButton />
               </div>
             </div>
