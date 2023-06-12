@@ -1,4 +1,4 @@
-/* custom nav link styling */
+/* nav link styling */
 .nav-link {
     color: black;
 }
@@ -7,15 +7,40 @@
     color: #00b5b5;
 }
 
-/* custom navbar toggler styling */
+/* header and footer image styling */
+#headerImage {
+    height: 3em;
+    width: 3em;
+}
+
+#footerImage {
+    height: 1.5em;
+    width: 1.5em;
+    color: #008081;
+}
+
+#footerImage:hover {
+    color: #00b5b5;
+}
+
+/* navbar toggler styling */
+#navbarToggler {
+  justify-content: flex-end;
+}
+
 .navbar-toggler {
-    display: inline-block;
-    padding: 0.375rem 0.75rem;
-    font-size: 0.8rem;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
     background-color: #008081;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-toggler span {
+    margin-right: 20px;
 }
 
 .navbar-toggler:hover {
@@ -23,7 +48,7 @@
     text-decoration: none;
 }
 
-/* custom button styling */
+/* button styling */
 .btn {
     color: white;
     background-color: #008081;
@@ -34,3 +59,35 @@
     background-color: #00b5b5;
 }
 
+/* card styling */
+.card {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 2em 1em
+}
+
+.card-title {
+  color: #008081;
+}
+
+.card-link {
+  color: #00b5b5;
+}
+
+/* image styling */
+#profile-img-home {
+  width: 20em;
+  height: 22em;
+
+}
+
+.img-home {
+  width: 10em;
+  height: 10em;
+}
+
+.img-pages {
+  width: 10em;
+  height: 10em;
+}
