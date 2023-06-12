@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import { NavFooter } from './components/NavFooter';
 import { NavHeader } from './components/NavHeader';
 import { Route, Routes } from 'react-router-dom';
