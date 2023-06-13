@@ -1,31 +1,31 @@
 /* nav link styling */
 .nav-link {
-    color: black;
+  color: black;
+  font-size: 1.5em;
 }
 
 .nav-link:hover {
-    color: #00b5b5;
+  color: #00b5b5;
+}
+
+#footer-text a {
+  color: #008081;
 }
 
 /* header and footer image styling */
 #headerImage {
-    height: 3em;
-    width: 3em;
+  height: 3em;
+  width: 3em;
 }
 
 #footerImage {
-    height: 1.5em;
-    width: 1.5em;
-    color: #008081;
+  height: 1.5em;
+  width: 1.5em;
+  color: #008081;
 }
 
 #footerImage:hover {
     color: #00b5b5;
-}
-
-/* navbar toggler styling */
-#navbarToggler {
-  justify-content: flex-end;
 }
 
 .navbar-toggler {
