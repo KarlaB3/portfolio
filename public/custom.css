@@ -1,7 +1,13 @@
+/* navbar styling */
+#header {
+  padding-top: 5em;
+  font-weight: 300;
+}
+
 /* nav link styling */
 .nav-link {
   color: black;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .nav-link:hover {
@@ -13,21 +19,22 @@
 }
 
 /* header and footer image styling */
-#headerImage {
-  height: 3em;
-  width: 3em;
+#profileImage {
+  height: 8em;
+  width: 7.5em;
 }
 
-#footerImage {
+#socialImage {
   height: 1.5em;
   width: 1.5em;
   color: #008081;
 }
 
-#footerImage:hover {
+#socialImage:hover {
     color: #00b5b5;
 }
 
+/* navbar toggler styling */
 .navbar-toggler {
     background-color: #008081;
     color: #ffffff;
