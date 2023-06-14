@@ -62,6 +62,7 @@ h1, h3 {
 
 /* Home styling */
 #bodyPadding {
+  flex: auto;
   padding-left: 12em;
   padding-right: 12em;
 }
