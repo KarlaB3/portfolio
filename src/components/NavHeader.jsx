@@ -8,7 +8,7 @@ export const NavHeader = () => {
 		<nav className="navbar navbar-expand-lg" id="header">
 			<div className="container-sm">
 				<a className="navbar-brand" target="_blank" rel="noreferrer" href='/'>
-					<img src={profile} alt="Profile image" id="profileImage" />
+					<img src={profile} alt="Profile" id="profileImage" />
 				</a>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
 					<span className="navbar-toggler-icon">Menu</span>

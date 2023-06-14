@@ -9,7 +9,7 @@ export function HomePage(props) {
       </div>
       <div className="container my-5">
       
-              <h2 className="display-4">Karla Bucoy</h2>
+              <h2 className="display-4">KARLA BUCOY</h2>
               <h3 className="display-6">Web Developer & Marketer</h3>
               <h3 className="display-7">I specialise in bringing digital projects to life and crafting exceptional user experiences.</h3>
               <AboutButton />
