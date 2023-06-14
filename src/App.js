@@ -12,6 +12,9 @@ import { ContactPage } from './pages/ContactPage';
 function App() {
   return (
     <div className="App">
+      <div class="alert alert-info" role="alert">
+        This website is a work in progress. Stay tuned.
+      </div>
       <NavHeader />
         <Routes>
           <Route path="/" element={<HomePage />} />
