@@ -1,6 +1,3 @@
-import projects from './../Images/projects-img.png'
-import blogs from './../Images/blog-img.png'
-import contact from './../Images/contact-img-2.png'
 import profile from './../Images/profile-img.png'
 import { AboutButton } from '../components/AboutButton'
 

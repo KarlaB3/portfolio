@@ -1,7 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faGithub} from '@fortawesome/free-brands-svg-icons'
-
 export const NavFooter = () => {
   return (
     <nav className="navbar navbar-expand-lg">
