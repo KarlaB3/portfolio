@@ -60,12 +60,12 @@ h1, h3 {
     text-decoration: none;
 }
 
-/* Home styling */
+/* Home styling
 #bodyPadding {
   flex: auto;
   padding-left: 12em;
   padding-right: 12em;
-}
+} */
 
 /* button styling */
 .btn {

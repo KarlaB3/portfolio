@@ -5,7 +5,7 @@ export const ProjectsPage = () => {
   //const targetProjectID = [573636775, 555806599, 607922602, 646332800, 642143267, 646375707];
   
   return (
-    <div className="container-xxl my-5" id="bodyPadding">
+    <div className="container-xxl my-4">
       <div className="container my-5">
           <div className="row">
             <div className="col-lg-3">

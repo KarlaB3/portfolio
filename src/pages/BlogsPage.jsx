@@ -3,7 +3,7 @@ import blogs from './../Images/blog-img.png'
 
 export const BlogsPage = () => {
   return (
-    <div className="container-xxl my-4" id="bodyPadding">
+    <div className="container-xxl my-4">
       <img className="img-pages" id="blog-img" src={blogs} alt="Blog"/>
       <h1>Blog</h1>
       <h6>My web dev journey</h6>
