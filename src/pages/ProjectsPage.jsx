@@ -13,7 +13,7 @@ export const ProjectsPage = () => {
             </div>
             <div className="col-lg-8">
               <div className="p-5 mt-4">
-                <h2 className="display-4">Projects</h2>
+                <h1>Projects</h1>
               </div>
             </div>
           </div>
