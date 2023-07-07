@@ -6,7 +6,7 @@ import profile from '../Images/profile-img.png'
 export const NavHeaderAlt = () => {
 return (
   <nav className="navbar navbar-expand-lg navbar-light" id="header">
-    <div className="container-fluid">
+    <div className="container px-4">
       <a className="navbar-brand"  href="/">
         <img src={profile} alt="Karla Profile Home" id="profileImage"></img>
       </a>
