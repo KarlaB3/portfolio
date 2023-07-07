@@ -1,7 +1,7 @@
 import profile from '../Images/profile-img.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faGithub} from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { faGithub} from '@fortawesome/free-brands-svg-icons'
 
 export const NavHeaderAlt = () => {
 return (
