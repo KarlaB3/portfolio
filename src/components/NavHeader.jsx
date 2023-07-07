@@ -5,7 +5,7 @@ import { faGithub} from '@fortawesome/free-brands-svg-icons'
 
 export const NavHeader = () => {
 	return (
-		<nav className="navbar navbar-expand-lg" id="header">
+		<nav className="navbar navbar-expand-lg navbar-light" id="header">
 			<div className="container-sm">
 				<a className="navbar-brand" target="_blank" rel="noreferrer" href='/'>
 					<img src={profile} alt="Profile" id="profileImage"></img>

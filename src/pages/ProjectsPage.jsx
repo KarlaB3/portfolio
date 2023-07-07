@@ -2,10 +2,10 @@ import { ProjectsFetch } from '../components/ProjectsFetch';
 import projects from './../Images/projects-img.png'
 
 export const ProjectsPage = () => {
-  //const targetProjectID = [573636775, 555806599, 607922602, 646332800, 642143267, 646375707];
+  const targetProjectID = [573636775, 555806599, 607922602, 646332800, 642143267, 646375707];
   
   return (
-    <div className="container-xxl my-4">
+    <div className="container my-8">
       <div className="container my-5">
           <div className="row">
             <div className="col-lg-3">
@@ -19,7 +19,7 @@ export const ProjectsPage = () => {
           </div>
       </div>
       <div>
-      <ProjectsFetch />
+      <ProjectsFetch targetProjectID={targetProjectID} />
       </div>
     </div>
   );
