@@ -7,7 +7,7 @@ export function ContactPage(props) {
         <div className="container-xxl my-4">
             <img className="img-pages" id="contact-img" src={contact} alt="Contact Form"/>
             <h1>Get in Touch</h1>
-            <p>I'm available for marketing and web developer collaborations and freelance opportunities.</p>
+            <p>I'm available for marketing and web development opportunities and collaborations.</p>
             <ContactForm />
         </div>
     )
