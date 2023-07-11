@@ -27,11 +27,17 @@
 /* font styling */
 #header {
   padding-top: 1em;
+  padding-bottom: ;
   justify-content: space-between;
   /* border-bottom: 1px solid rgba(0,0,0,.125); */
 }
 
 h1 {
+  color: black;
+  font-weight: 600;
+}
+
+h2 {
   color: black;
   font-weight: 600;
 }
@@ -177,9 +183,15 @@ h1 {
 
 /* image styling */
 .img-pages {
-  width: 6em;
-  height: 6em;
+  width: 3.5em;
+  height: 3em;
 }
+
+.img-home {
+  width: 10em;
+  height: 10em;
+}
+
 
 /* link styling */
 #link {

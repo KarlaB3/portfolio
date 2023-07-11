@@ -5,21 +5,19 @@ export const ProjectsPage = () => {
   const targetProjectID = [573636775, 555806599, 607922602, 646332800, 642143267, 646375707];
   
   return (
-    <div className="container mb-5">
-      <div className="container my-5">
-          <div className="row">
-            <div className="col-lg-3">
+    <div className="container my-5 px-5">
+      <section className="container my-2">
+        <section className="row">
+          <header className="col-lg-2">
+            <h2>Projects</h2>
+          </header>
+          <section className="col">
               <img className="img-pages" id="projects-img" src={projects} alt="Projects"/>
-            </div>
-            <div className="col-lg-8">
-              <div className="p-5 mt-4">
-                <h1>Projects</h1>
-              </div>
-            </div>
-          </div>
-      </div>
+          </section>
+        </section>
+      </section>
       <div>
-      <ProjectsFetch targetProjectID={targetProjectID} />
+        <ProjectsFetch targetProjectID={targetProjectID} />
       </div>
     </div>
   );

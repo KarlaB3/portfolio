@@ -1,6 +1,7 @@
 // import './App.css';
 import { NavFooter } from './components/NavFooter';
-import { NavHeaderAlt } from './components/NavHeaderAlt';
+// import { NavHeaderAlt } from './components/NavHeaderAlt';
+import { NavHeaderAltAlt } from './components/NavHeaderAltAlt'
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -15,7 +16,7 @@ function App() {
       <div class="alert alert-info" role="alert">
         This website is a work in progress. Stay tuned.
       </div>
-      <NavHeaderAlt />
+      <NavHeaderAltAlt />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
