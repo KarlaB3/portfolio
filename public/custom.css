@@ -1,4 +1,4 @@
-.App {
+/* .App {
   font-family: 'Outfit', sans-serif; 
   max-width: 800px;
   margin: 0 auto;
@@ -8,9 +8,20 @@
 
 #footer {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem; /* Footer height */
+  margin-top: auto;
+} */
+
+.App {
+  font-family: 'Outfit', sans-serif; 
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  margin-top: auto;
 }
 
 /* font styling */
@@ -35,10 +46,6 @@ h1 {
 .nav-link:hover {
   text-decoration: 2px underline;
   text-decoration-color: #ffc300;
-}
-
-#footer-text a {
-  color: #008081;
 }
 
 .navbar-toggler {
@@ -111,10 +118,6 @@ h1 {
   transform: rotate(0deg);
 }
 
-/* Footer styling */
-#footer {
-
-}
 
 /* header and footer image styling */
 #profileImage {
@@ -148,9 +151,16 @@ h1 {
 /* card styling */
 .card {
   margin: 2em 1em;
-  padding: 2em 1em;
+  padding: 2em 2em;
   box-shadow: 0 4px 5px rgba(0,0,0,.15);
 }
+
+/* .card {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em 1em;
+  box-shadow: 0 4px 5px rgba(0,0,0,.15);
+} */
 
 .card-title {
   color: #4400ff;
@@ -169,4 +179,19 @@ h1 {
 .img-pages {
   width: 6em;
   height: 6em;
+}
+
+/* link styling */
+#link {
+  color: #212529;
+  text-decoration: none;
+}
+
+#link:hover {
+  color:#ffc300;
+}
+
+form {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
