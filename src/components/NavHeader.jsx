@@ -1,35 +1,26 @@
 import profile from '../Images/profile-img.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faGithub} from '@fortawesome/free-brands-svg-icons'
 
 export const NavHeader = () => {
-	return (
-		<nav className="navbar navbar-expand-lg navbar-light" id="header">
-			<div className="container-sm">
-				<a className="navbar-brand" target="_blank" rel="noreferrer" href='/'>
-					<img src={profile} alt="Profile" id="profileImage"></img>
-				</a>
-				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
-					<span className="navbar-toggler-icon">Menu</span>
-				</button>
-				<div className="collapse navbar-collapse" id="navbarToggler">
-					<div className="navbar-nav">
-						<a className="nav-link px-3" href="/about">ABOUT</a>
-						<a className="nav-link px-3" href="/projects">PROJECTS</a>
-						<a className="nav-link px-3" href="/blogs">BLOG</a>
-						<a className="nav-link px-3" href="/Contact">CONTACT</a>
-					</div>
-				</div>
-				<div className="d-inline-flex">
-					<a className="navbar-brand" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/karla-bucoy/">
-						<FontAwesomeIcon icon={faLinkedin} id="socialImage" alt="LinkedIn profile" />
-					</a>
-					<a className="navbar-brand" target="_blank" rel="noreferrer" href="https://github.com/KarlaB3">
-						<FontAwesomeIcon icon={faGithub} id="socialImage" alt="GitHub profile" />
-					</a>
-				</div>
+return (
+  <nav className="navbar navbar-expand-lg navbar-light" id="header">
+    <div className="container px-4">
+      <a className="navbar-brand"  href="/">
+        <img src={profile} alt="Karla Profile Home" id="profileImage"></img>
+      </a>
+      <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul className="navbar-nav">
+          <li className="nav-item"><a className="nav-link px-3" href="/about">ABOUT</a></li>
+          <li className="nav-item"><a className="nav-link px-3" href="/projects">PROJECTS</a></li>
+          <li className="nav-item"><a className="nav-link px-3" href="/blogs">BLOG</a></li>
+          <li className="nav-item"><a className="nav-link pe-0" href="/contact">CONTACT</a></li>
+        </ul>
       </div>
-		</nav>
-	)
+    </div>
+  </nav>
+)
 }

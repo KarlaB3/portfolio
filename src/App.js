@@ -1,5 +1,5 @@
 import { NavFooter } from './components/NavFooter';
-import { NavHeaderAlt } from './components/NavHeaderAlt';
+import { NavHeader } from './components/NavHeader';
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -11,7 +11,7 @@ import { ContactPage } from './pages/ContactPage';
 function App() {
   return (
     <div className="App">
-      <NavHeaderAlt />
+      <NavHeader />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

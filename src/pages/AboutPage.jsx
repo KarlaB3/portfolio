@@ -1,7 +1,4 @@
-import education from './../Images/education-img.png'
-import experience from './../Images/experience-img.png'
-
-export function AboutPage(props) {
+export function AboutPage() {
 	return (
 	<div className="container my-4 px-4">
 		<section className="container pb-4">

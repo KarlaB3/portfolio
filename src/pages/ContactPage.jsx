@@ -1,8 +1,6 @@
 import { ContactForm } from "../components/ContactForm";
-import contact from './../Images/contact-img.png'
 
-
-export function ContactPage(props) {
+export function ContactPage() {
   return (
     <div className="container my-4 px-4">
       <section className="container my-2">
