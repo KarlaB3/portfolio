@@ -16,17 +16,17 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="card">
-    <form ref={form} onSubmit={sendEmail}>
-      <div class="mb-3">
+    // <div className="card">
+    <form className="px-2" ref={form} onSubmit={sendEmail}>
+      <div class="mb-4">
         <label for="contactName">Name</label>
         <input type="text" name="user_name" class="form-control" placeholder="Your full name" />
       </div>
-      <div class="mb-3">
+      <div class="mb-4">
         <label for="contactEmail">Email</label>
         <input type="email" name="user_email" class="form-control" placeholder="name@example.com" />
       </div>
-      <div class="mb-3">
+      <div class="mb-4">
         <label for="contactMessage">Message</label>
         <textarea name="message" class="form-control" placeholder="Your message" />
       </div>
@@ -34,6 +34,6 @@ export const ContactForm = () => {
         <button type="submit" class="btn">Send message</button>
     </div>
     </form>
-    </div>
+    // </div>
     );
 };

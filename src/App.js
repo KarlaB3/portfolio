@@ -1,7 +1,5 @@
-// import './App.css';
 import { NavFooter } from './components/NavFooter';
-// import { NavHeaderAlt } from './components/NavHeaderAlt';
-import { NavHeaderAltAlt } from './components/NavHeaderAltAlt'
+import { NavHeaderAlt } from './components/NavHeaderAlt';
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -13,10 +11,7 @@ import { ContactPage } from './pages/ContactPage';
 function App() {
   return (
     <div className="App">
-      <div class="alert alert-info" role="alert">
-        This website is a work in progress. Stay tuned.
-      </div>
-      <NavHeaderAltAlt />
+      <NavHeaderAlt />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
