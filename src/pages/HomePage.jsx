@@ -9,7 +9,7 @@ export function HomePage() {
           <h5 className="py-2">Hi, I'm Karla</h5>
           <h1 className="py-2">Web Developer and Marketer</h1>
           <h3 className="pt-2 pb-3">I specialise in bringing digital projects to life and crafting exceptional user experiences.</h3>
-          <a href="/" id="link">Read more about me<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" className="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" fill="currentColor"/></svg></a>
+          <a href="/about" id="link">Read more about me<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" className="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" fill="currentColor"/></svg></a>
       </section>
       <section className="container pb-4">
         <section className="row">
