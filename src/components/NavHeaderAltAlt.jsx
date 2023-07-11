@@ -1,4 +1,4 @@
-import profile from '../Images/profile-img.png'
+// import profile from '../Images/profile-img.png'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 // import { faGithub} from '@fortawesome/free-brands-svg-icons'
