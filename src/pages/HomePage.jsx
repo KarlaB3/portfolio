@@ -1,6 +1,7 @@
 import projects from './../Images/projects-img.png'
 import blog from './../Images/blog-img.png'
 import contact from './../Images/contact-img.png'
+// import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 export function HomePage() {
   return (

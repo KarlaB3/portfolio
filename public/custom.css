@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Outfit', sans-serif; 
+  font-family: 'Outfit', sans-serif;
   max-width: 800px;
   margin: 0 auto;
   min-height: 100vh;
@@ -34,6 +34,7 @@ h2 {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   font-weight: 600;
+  text-align: center;
 }
 
 .nav-link:hover {
@@ -43,7 +44,7 @@ h2 {
 
 .navbar-toggler {
   width: 20px;
-  height: 15px;
+  height: 10px;
   position: relative;
   transition: .5s ease-in-out;
 }
@@ -65,9 +66,9 @@ h2 {
 .toggler-icon {
   display: block;
   position: absolute;
-  height: 3px;
+  height: 1px;
   width: 100%;
-  background: rgba(0,0,0,.15);
+  background: #212529;
   border-radius: 1px;
   opacity: 1;
   left: 0;
